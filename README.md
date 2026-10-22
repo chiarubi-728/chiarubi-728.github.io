@@ -28,6 +28,18 @@
 
 ## 維護與發布
 
+### 共用標誌
+
+米色底、淺橘圓角方塊、深棕 R 與兩個角落框線。依已選定的圖案整理成可縮放的 SVG，所有 PNG 由同一份向量檔匯出。
+
+- `assets/rubi-corner.svg`：首頁與支援 SVG 的瀏覽器圖示。
+- `assets/favicon-32.png`：32 × 32 瀏覽器圖示。
+- `assets/apple-touch-icon.png`：180 × 180 加到主畫面圖示。
+- `assets/logo-512.png`：512 × 512 一般用途。
+- `assets/google-logo-120.png`：120 × 120 Google 品牌設定用 PNG。
+
+Google 標誌格式依 [官方說明](https://support.google.com/cloud/answer/15549049) 準備；此網站發布不會自動更換 Google Console 中的標誌，仍由擁有者上傳。各 App 的名稱及授權設定維持各自管理。
+
 直接編輯 index.html 與 style.css；GitHub Pages 從 main 分支根目錄發布，.nojekyll 停用 Jekyll。沒有登入程式、不讀寫 Drive，也不自動導向登入頁。遊戲庫原網址、Client ID、JavaScript 來源與使用者存檔由原工具管理。
 
 新增入口前確認名稱、用途及公開網址，避免連到私人專案。一般公開專案使用說明與政策應連到各專案的正式版本。
