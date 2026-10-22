@@ -22,6 +22,10 @@
 
 首頁沿用同網域現有介紹頁的 Search Console 驗證 meta。發布首頁不代表已完成網域所有權或 OAuth 品牌驗證。
 
+## 視覺風格
+
+米色背景、淺橘按鈕與深棕文字；採較大的留白、細邊框及專案卡片。參考圖鑑的暖色感，但不沿用圖鑑的列表與操作介面。各專案分別以暖橘、灰綠、灰藍作小範圍點綴。
+
 ## 維護與發布
 
 直接編輯 index.html 與 style.css；GitHub Pages 從 main 分支根目錄發布，.nojekyll 停用 Jekyll。沒有登入程式、不讀寫 Drive，也不自動導向登入頁。遊戲庫原網址、Client ID、JavaScript 來源與使用者存檔由原工具管理。
