@@ -1,24 +1,29 @@
-# PSN Game Catalog 公開首頁
+# Rubi’s Cluttered Corner
 
 網站：[chiarubi-728.github.io](https://chiarubi-728.github.io/)
 
-這是 PSN Game Catalog 的公開介紹與專案入口，包含功能介紹、Google 資料用途、維護者與政策連結。首頁無須登入，不載入 Google 登入程式、不存取遊戲庫或 Drive，也不會自動導向登入頁。
+個人專案首頁整合卡蒂狗・風速狗圖鑑、App 與 PSN Game Catalog。App 先保留卡片與「尚未開放」停用按鈕，之後再提供使用或下載入口。
 
-## 正式連結
+## 專案入口
 
-- [開啟遊戲庫](https://chiarubi-728.github.io/PSN_Game_Catalog/)
-- [隱私權政策](https://chiarubi-728.github.io/PSN_Game_Catalog/privacy.html)
-- [服務說明](https://chiarubi-728.github.io/PSN_Game_Catalog/terms.html)
-- [工具原始碼與問題回報](https://github.com/chiarubi-728/PSN_Game_Catalog)
+- [卡蒂狗・風速狗圖鑑](https://chiarubi-728.github.io/PTCG-Growlithe-Catalog/)
+- App：先顯示不可點擊的「尚未開放」按鈕，之後再提供公開使用或下載網址。
+- [PSN Game Catalog](https://chiarubi-728.github.io/PSN_Game_Catalog/)
 
-政策沿用工具儲存庫的正式頁面，避免維護兩份不同版本。
+## 政策與 OAuth
+
+各專案的功能和政策分別說明。首頁 Google 資料用途區塊明確限定 PSN Game Catalog，不把其他專案描述成使用相同的登入或備份功能。
+
+- [PSN 應用程式介紹](https://chiarubi-728.github.io/PSN_Game_Catalog/about.html)
+- [PSN 隱私權政策](https://chiarubi-728.github.io/PSN_Game_Catalog/privacy.html)
+- [PSN 服務說明](https://chiarubi-728.github.io/PSN_Game_Catalog/terms.html)
+
+通用首頁名稱是個人專案品牌，不自動更換各 App 的名稱或 Google OAuth 品牌。Google 專案的首頁與政策設定由擁有者處理；PSN 專屬介紹頁持續保留，可用於清楚識別該應用程式。
+
+首頁沿用同網域現有介紹頁的 Search Console 驗證 meta。發布首頁不代表已完成網域所有權或 OAuth 品牌驗證。
 
 ## 維護與發布
 
-直接編輯 index.html 與 style.css；GitHub Pages 從 main 分支根目錄發布，.nojekyll 停用 Jekyll 處理。無需安裝套件或建置，不設定自訂網域。
+直接編輯 index.html 與 style.css；GitHub Pages 從 main 分支根目錄發布，.nojekyll 停用 Jekyll。沒有登入程式、不讀寫 Drive，也不自動導向登入頁。遊戲庫原網址、Client ID、JavaScript 來源與使用者存檔由原工具管理。
 
-首頁的 Google Search Console 驗證 meta 沿用同一網域現有介紹頁的設定。發布頁面不代表已完成 Search Console 所有權驗證或 Google OAuth 品牌驗證。
-
-Google Auth Platform 的應用程式首頁可設定為 https://chiarubi-728.github.io/ ，隱私權與服務說明維持以上正式網址。主控台設定及重新提交需由專案擁有者操作；若正在審查，依當時主控台或審查信件指示處理。
-
-更新首頁時，維持 PSN Game Catalog 的名稱、功能與資料揭露和正式工具一致。Google 登入 Client ID、JavaScript 來源、同步程式與既有瀏覽器存檔不由此儲存庫變更。
+新增入口前確認名稱、用途及公開網址，避免連到私人專案。一般公開專案使用說明與政策應連到各專案的正式版本。
