@@ -30,10 +30,11 @@
 
 ### 共用標誌
 
-米色底、淺橘圓角方塊、深棕 R 與兩個角落框線。依已選定的圖案整理成可縮放的 SVG，所有 PNG 由同一份向量檔匯出。
+米色底、淺橘圓角方塊、深棕 R 與兩個角落框線。依已選定的圖案整理成可縮放的 SVG，PNG 由向量稿匯出；瀏覽器小圖示另外去除外圍米色留白，讓方塊填滿圖示、圓角外透明。
 
-- `assets/rubi-corner.svg`：首頁與支援 SVG 的瀏覽器圖示。
-- `assets/favicon-32.png`：32 × 32 瀏覽器圖示。
+- `assets/rubi-corner.svg`：首頁標誌。
+- `assets/favicon.svg`：去除留白、圓角外透明的瀏覽器圖示。
+- `assets/favicon-32.png`：32 × 32 透明圓角瀏覽器圖示，與 favicon.svg 構圖相同。
 - `assets/apple-touch-icon.png`：180 × 180 加到主畫面圖示。
 - `assets/logo-512.png`：512 × 512 一般用途。
 - `assets/google-logo-120.png`：120 × 120 Google 品牌設定用 PNG。
